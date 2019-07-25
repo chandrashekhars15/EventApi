@@ -88,7 +88,7 @@ namespace EventApi
                 c.Filters.Add(typeof(CustomExceptionHandler));
                 c.OutputFormatters.Add(new CsvCustomFormatter());
             })
-                .AddXmlDataContractSerializerFormatters()
+                //.AddXmlDataContractSerializerFormatters()
                 .SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
