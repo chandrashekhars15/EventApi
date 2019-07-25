@@ -36,8 +36,8 @@ namespace EventApi
 
             services.AddDbContext<EventDbContext>(options =>
             { 
-                //options.UseInMemoryDatabase(databaseName: "EventDb");
-                options.UseSqlServer(Configuration.GetConnectionString("EventSqlConnection"));
+                options.UseInMemoryDatabase(databaseName: "EventDb");
+                //options.UseSqlServer(Configuration.GetConnectionString("EventSqlConnection"));
             });
 
             services.AddSwaggerGen(c =>
@@ -110,6 +110,8 @@ namespace EventApi
             //        .WithHeaders("Authorization", "Content-Type", "Accept");
             //});
 
+            InitializeDatabase(app);
+
             app.UseCors();
 
             app.UseSwagger();
@@ -124,6 +126,39 @@ namespace EventApi
             }
             
             app.UseMvc();
+        }
+
+        private void InitializeDatabase(IApplicationBuilder app)
+        {
+            using (var serviceScope = app.ApplicationServices.GetRequiredService<IServiceScopeFactory>().CreateScope())
+            {
+                var db = serviceScope.ServiceProvider.GetService<EventDbContext>();
+
+                db.Events.Add(new Models.EventInfo
+                {
+                    Title = "Sample Event1",
+                    StartDate = DateTime.Now,
+                    EndDate = DateTime.Now.AddDays(2),
+                    StartTime = "9:00 AM",
+                    EndTime = "5:30 PM",
+                    Host = "Microsoft",
+                    Speaker = "Shekhar",
+                    RegistrationUrl = "https://events.microsoft.com/1234"
+                });
+
+                db.Events.Add(new Models.EventInfo
+                {
+                    Title = "Sample Event2",
+                    StartDate = DateTime.Now,
+                    EndDate = DateTime.Now.AddDays(2),
+                    StartTime = "9:00 AM",
+                    EndTime = "5:30 PM",
+                    Host = "Google",
+                    Speaker = "Shekhar",
+                    RegistrationUrl = "https://events.google.com/1234"
+                });
+                db.SaveChanges();
+            }
         }
     }
 }

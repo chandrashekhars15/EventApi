@@ -13048,11 +13048,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Shekhar\\.Net Core\\Microservices\\EventApi\\EventApi\\EventApi.csproj",
+      "projectUniqueName": "D:\\Shekhar\\.Net Core\\EventApi\\EventApi\\EventApi.csproj",
       "projectName": "EventApi",
-      "projectPath": "D:\\Shekhar\\.Net Core\\Microservices\\EventApi\\EventApi\\EventApi.csproj",
+      "projectPath": "D:\\Shekhar\\.Net Core\\EventApi\\EventApi\\EventApi.csproj",
       "packagesPath": "C:\\Users\\r1m1nrao\\.nuget\\packages\\",
-      "outputPath": "D:\\Shekhar\\.Net Core\\Microservices\\EventApi\\EventApi\\obj\\",
+      "outputPath": "D:\\Shekhar\\.Net Core\\EventApi\\EventApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

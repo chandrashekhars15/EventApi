@@ -26,3 +26,17 @@ D:\Shekhar\.Net Core\Microservices\EventApi\EventApi\obj\Debug\netcoreapp2.2\Eve
 D:\Shekhar\.Net Core\Microservices\EventApi\EventApi\obj\Debug\netcoreapp2.2\EventApi.RazorTargetAssemblyInfo.cache
 D:\Shekhar\.Net Core\Microservices\EventApi\EventApi\obj\Debug\netcoreapp2.2\EventApi.dll
 D:\Shekhar\.Net Core\Microservices\EventApi\EventApi\obj\Debug\netcoreapp2.2\EventApi.pdb
+D:\Shekhar\.Net Core\EventApi\EventApi\bin\Debug\netcoreapp2.2\EventApi.deps.json
+D:\Shekhar\.Net Core\EventApi\EventApi\bin\Debug\netcoreapp2.2\EventApi.runtimeconfig.json
+D:\Shekhar\.Net Core\EventApi\EventApi\bin\Debug\netcoreapp2.2\EventApi.runtimeconfig.dev.json
+D:\Shekhar\.Net Core\EventApi\EventApi\bin\Debug\netcoreapp2.2\EventApi.dll
+D:\Shekhar\.Net Core\EventApi\EventApi\bin\Debug\netcoreapp2.2\EventApi.pdb
+D:\Shekhar\.Net Core\EventApi\EventApi\obj\Debug\netcoreapp2.2\EventApi.csprojAssemblyReference.cache
+D:\Shekhar\.Net Core\EventApi\EventApi\obj\Debug\netcoreapp2.2\EventApi.csproj.CoreCompileInputs.cache
+D:\Shekhar\.Net Core\EventApi\EventApi\obj\Debug\netcoreapp2.2\EventApi.RazorAssemblyInfo.cache
+D:\Shekhar\.Net Core\EventApi\EventApi\obj\Debug\netcoreapp2.2\EventApi.RazorAssemblyInfo.cs
+D:\Shekhar\.Net Core\EventApi\EventApi\obj\Debug\netcoreapp2.2\EventApi.AssemblyInfoInputs.cache
+D:\Shekhar\.Net Core\EventApi\EventApi\obj\Debug\netcoreapp2.2\EventApi.AssemblyInfo.cs
+D:\Shekhar\.Net Core\EventApi\EventApi\obj\Debug\netcoreapp2.2\EventApi.RazorTargetAssemblyInfo.cache
+D:\Shekhar\.Net Core\EventApi\EventApi\obj\Debug\netcoreapp2.2\EventApi.dll
+D:\Shekhar\.Net Core\EventApi\EventApi\obj\Debug\netcoreapp2.2\EventApi.pdb
